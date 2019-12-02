@@ -1,0 +1,109 @@
+/*    New Arrival Section
+------------------------------------------------------ */
+.new-arrivals {
+    background-color: $color-grey-light;
+
+    padding: 32px 0;
+    min-height: 500px;
+}
+
+.new-arrivals__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*    Offer Banner Section
+-------------------------------------------------------- */
+.offer {
+    padding: 32px 0;
+}
+
+.offer__content {
+    height: 200px;
+    padding: 0 15px;
+    position: relative;
+
+    background-image: url('../images/offer-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width: 576px) {
+        background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/offer-img.jpg');
+    }
+}
+
+.offer__text {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $color-primary;
+
+    @media (max-width: 576px) {
+        right: 10px;
+    }
+}
+
+.offer__text p:first-child {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.offer__text p:last-child {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/*    Top Selling Section
+--------------------------------------------------------- */
+.top-selling {
+    padding-bottom: 32px;
+}
+
+.top-selling__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*    Customer Reviews Section
+--------------------------------------------------------- */
+.review {
+    padding: 32px 0;
+
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/reviews.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.review__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*    Featured Section
+--------------------------------------------------------- */
+.featured {
+    padding: 32px 0;
+}
+
+.featured__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured__img {
+    padding: 0 15px;
+    margin: 15px 0;
+    max-width: 250px;
+}
+
+.featured__img img {
+    width: 100%;
+}

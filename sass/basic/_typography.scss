@@ -1,0 +1,23 @@
+.heading__secondary {
+    font-family: $font-heading;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+    padding: 0 15px;
+
+    @media (max-width: 576px) {
+        font-size: 30px;
+    }
+}
+
+.heading__tertiary {
+    color: #fff;
+    font-weight: 600;
+    font-size: 23px;
+
+    @media (max-width: 576px) {
+        font-size: 20px;
+    }
+}

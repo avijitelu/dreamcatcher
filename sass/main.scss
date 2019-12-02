@@ -1,0 +1,18 @@
+// Imports basic partials
+@import './basic/variables';
+@import './basic/utility';
+@import './basic/basic';
+@import './basic/typography';
+
+// Imports Components Partials
+@import './components/button';
+@import './components/navbar';
+@import './components/banner';
+@import './components/card';
+@import './components/square_card';
+@import './components/simple_card';
+@import './components/footer';
+@import './components/social';
+
+// Imports Page Partials
+@import './pages/index';
